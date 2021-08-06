@@ -1,13 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>What&#039;s Your Home Worth In Today&#039;s Market?</title>
+        <title>About page</title>
         <meta name="description" content="Find out now." />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
@@ -50,11 +49,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js about page!</a>
         </h1>
-        <Link href="/about">
-          <a>About Us</a>
-        </Link>
+
         <p className={styles.description}>
           Get started by editing{" "}
           <code className={styles.code}>pages/index.js</code>
